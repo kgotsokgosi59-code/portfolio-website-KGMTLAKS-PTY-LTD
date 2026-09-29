@@ -1,8 +1,51 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+    --base:#555;
+    --base-100: #f1f1f1;
+    --base-800: #000;
+--blue: #002fff;
+--blue-100:#fffbe6;
+--blue-800: #8b6f00;
+--yellow:#ffda4b;
+--yellow-100: #fffbe6;
+--yellow-800: #8b6f00;
+}
 
 
-body[open-sans-<uniquifier> {
+body[
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;]
+  font-size: 20px;
+  ]
+
+  header{
+padding: top 10px;
+padding: bottom 10px;
+display: flex;
+justify-content: space-between;
+max-width: 1440px;
+margin: auto;
+boarder-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    .logo-header{
+        display: flex;
+        padding: 10px;
+        color: #000;
+        .logo{
+
+        }
+        .logo-text{
+
+        }
+    }
+
+nav {
+
+}
+  }
